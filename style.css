@@ -1,0 +1,67 @@
+html {
+  display: flex;
+  justify-content: center;
+  background-color:blanchedalmond;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+#output {
+  font-size: 64px;
+  text-align: right;
+  background-color:rgb(61, 61, 61);
+  color: rgb(207, 207, 207);
+  padding: 0px 8px;
+  margin-top: 64px;
+  margin-bottom: 2px;
+}
+
+#calculationInputWrapper {
+  display: flex;
+  gap: 2px;
+}
+
+#numpadWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 364.77px;
+  gap: 2px;
+}
+button#zero {
+  flex-basis: 99.5%;
+}
+
+#operatorWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+button {
+  font-size: 64px;
+  padding: 32px 40px;
+  background-color: rgb(182, 182, 182);
+}
+button:hover {
+  background-color: rgb(141, 140, 140);
+}
+button.operator {
+  background-color: orange;
+}
+button.operator:hover {
+  background-color: rgb(204, 133, 0);
+}
+button#equals {
+  background-color: red;
+}
+button#equals:hover {
+  background-color: rgb(211, 0, 0);
+}
+#specialButtonsWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
